@@ -21,7 +21,7 @@
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                 <div class="panel panel-primary">
                     <div class="panel-heading">重要不紧急<span class="fa fa-plus"></span></div>
-                    <div class="panel-body">
+                    <div class="panel-body" id="ZYBJJ">
                         这里放重要不紧急的代办事情
                         <div class="panel-context">
                             <label>
@@ -39,7 +39,7 @@
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                 <div class="panel panel-danger">
                     <div class="panel-heading">重要且紧急</div>
-                    <div class="panel-body">
+                    <div class="panel-body" id="ZYQJJ">
                         这里放重要且紧急的代办事情
                         <div class="panel-context">
                             <label>
@@ -59,7 +59,7 @@
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                 <div class="panel panel-default">
                     <div class="panel-heading">不重要不紧急</div>
-                    <div class="panel-body">
+                    <div class="panel-body" id="BZYBJJ">
                         这里放不重要不紧急的代办事情
                     </div>
                 </div>
@@ -67,7 +67,7 @@
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                 <div class="panel panel-warning">
                     <div class="panel-heading">不重要但紧急</div>
-                    <div class="panel-body">
+                    <div class="panel-body" id="BZYDJJ">
                         这里放不重要但紧急的代办事情
                     </div>
                 </div>
@@ -80,4 +80,9 @@
 <script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
 <script src="https://cdn.bootcss.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
 <script src="https://cdn.bootcss.com/echarts/3.7.2/echarts.min.js"></script>
+<script src="./data/WorkContextData.js"></script>
+<script src="./js/OperateWorkData.js"></script>
+<script>
+    initWorkView();
+</script>
 
