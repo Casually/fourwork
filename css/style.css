@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.title-node{
+    height: 5vh;
+    margin: 15px;
+}
+.row-cc-panels{
+    height: 40vh;
+    margin-top:15px ;
+}
+.row-cc-panels .col-xs-6{
+    height: 100%;
+}
+.row-cc-panels .panel{
+    height:100%;
+    background-color: #E5EAF0;
+}
+.row-cc-panels .panel-body{
+    height:80%;
+    overflow: auto;
+}
+.row-cc-panels .panel-heading{
+    font-size: 20px;
+}
+.panel-context{
+    border-radius: 5px;
+    height: 30px;
+    background-color: #FDFDFD;
+    padding: 5px;
+    line-height: 16px;
+    font-size: 16px;
+    margin-top: 5px;
+}
