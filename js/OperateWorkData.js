@@ -26,7 +26,9 @@ function initWorkView() {
 function apendWorkData(id,wcd) {
     var conStr = '<div class="panel-context">'+
                     '<label>'+
-                        '<input type="checkbox"><span style="margin-left: 5px;">'+ wcd.title + '(' + wcd.time + ')</span>'+
+                        (wcd.finish === 1?"<s>":"") +
+                            '<input type="checkbox"><span style="margin-left: 5px;">'+ wcd.title + '(' + wcd.time + ')</span>'+
+                        (wcd.finish === 1?"</s>":"") +
                     '</label>'+
                 '</div>';
     $("#"+ id).append(conStr);
