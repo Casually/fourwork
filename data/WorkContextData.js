@@ -128,6 +128,13 @@ var workContextData = [
         "time":"无定期",
         "type":"ZYBJJ",
         "finish":0
+    },
+    {
+        "title":"服务器续费",
+        "context":"",
+        "time":"本周天",
+        "type":"ZYBJJ",
+        "finish":0
     }
 ]
 
